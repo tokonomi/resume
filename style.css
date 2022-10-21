@@ -6,6 +6,11 @@
     padding: 0;
     font-family: 'Noto Sans Buhid', sans-serif;
 }
+
+a{
+    color: #000;
+}
+
 body{
     display: flex;
     align-items: center;
@@ -152,24 +157,18 @@ header{
 }
 
 .angular{
-    background-color: rgb(154, 154, 154)!important;
     border-bottom: 1px solid #000;
     float: left;
     height: 11px;
 }
 
-.s-angular{
-    color: rgb(154, 154, 154);
-    text-decoration: underline;
-    text-decoration-color: #000;
-}
 
 .html{
     width: 98%;
     animation: html 3s;
 }
 .js{
-    width: 75%;
+    width: 85%;
     animation: js 3s;
 }
 .php{
@@ -193,6 +192,10 @@ header{
     animation: oop 3s;
 }
 
+.references{
+    padding-top: 30px;
+}
+
 @keyframes html{
     0%{
         width: 0%;
@@ -206,7 +209,7 @@ header{
         width: 0%;
     }
     100%{
-        width: 75%;
+        width: 85%;
     }
 }
 @keyframes php{
