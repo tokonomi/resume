@@ -95,7 +95,7 @@ header{
 
 .info-section{
     width: 510px;
-    padding: 43px 0 0 75px;
+    padding: 20px 0 0 75px;
 }
 
 .info-section > ul{
@@ -112,19 +112,23 @@ header{
 }
 
 .prps-list{
-    padding-bottom: 20px;
+    padding-bottom: 8px;
 }
 
 .edc-list{
-    padding-bottom: 20px;
+    padding-bottom: 18px;
 }
 
 .tech-list{
-    padding-bottom: 20px;
+    padding-bottom: 18px;
 }
 
 .exp-list{
     padding-bottom: 15px;
+}
+
+.lang-skill{
+    padding-top: 15px!important;
 }
 
 .in-list{
@@ -179,17 +183,29 @@ header{
     width: 75%;
     animation: react 3s;
 }
-.api{
-    width: 98%;
-    animation: api 3s;
+
+.ru{
+    width: 100%;
+    animation: ru 3s;
 }
-.oop{
-    width: 98%;
-    animation: oop 3s;
+
+.az{
+    width: 100%;
+    animation: az 3s;
+}
+
+.en{
+    width: 70%;
+    animation: en 3s;
+}
+
+.jp{
+    width: 15%;
+    animation: jp 3s;
 }
 
 .references{
-    padding-top: 30px;
+    padding-top: 10px;
 }
 
 @keyframes html{
@@ -232,19 +248,35 @@ header{
         width: 75%;
     }
 }
-@keyframes api{
+@keyframes ru{
     0%{
         width: 0%;
     }
     100%{
-        width: 98%;
+        width: 100%;
     }
 }
-@keyframes oop{
+@keyframes az{
     0%{
         width: 0%;
     }
     100%{
-        width: 98%;
+        width: 100%;
+    }
+}
+@keyframes en{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes jp{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 15%;
     }
 }
