@@ -7,10 +7,6 @@
     font-family: 'Noto Sans Buhid', sans-serif;
 }
 
-a{
-    color: #000!important;
-}
-
 body{
     display: flex;
     align-items: center;
